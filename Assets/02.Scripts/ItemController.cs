@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ItemController : MonoBehaviour
 {
-    public float dropSpeed = -0.03f;
+    public float dropSpeed = -3.0f;
     void Start()
     {
         
@@ -12,7 +12,7 @@ public class ItemController : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(0, dropSpeed, 0);
+        transform.Translate(0, Time.deltaTime * dropSpeed, 0);
 
         if (transform.position.y < -1)
         {

@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1bd16ef91a4b6f6439624ac1e14bf238, type: 3}
       propertyPath: m_Name
-      value: apple
+      value: applePrefab
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1bd16ef91a4b6f6439624ac1e14bf238, type: 3}
       propertyPath: m_TagString
@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3f32c323fb59a048b5fef8dd0461852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropSpeed: -0.03
+  dropSpeed: -3
 --- !u!135 &8400477514324177237
 SphereCollider:
   m_ObjectHideFlags: 0

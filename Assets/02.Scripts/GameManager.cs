@@ -33,19 +33,19 @@ public class GameManager : MonoBehaviour
         }
         if (0 < time && time <= 5f)
         {
-            itemGenerator.GetComponent<ItemGenerator>().SetParameter(0.7f, -0.04f, 3);
+            itemGenerator.GetComponent<ItemGenerator>().SetParameter(0.7f, -4.0f, 3);
         }
         if (5f <= time && time <= 12f)
         {
-            itemGenerator.GetComponent<ItemGenerator>().SetParameter(0.5f, -0.05f, 6);
+            itemGenerator.GetComponent<ItemGenerator>().SetParameter(0.5f, -5.0f, 6);
         }
         if (12f <= time && time <= 23f)
         {
-            itemGenerator.GetComponent<ItemGenerator>().SetParameter(0.8f, -0.04f, 4);
+            itemGenerator.GetComponent<ItemGenerator>().SetParameter(0.8f, -4.0f, 4);
         }
         if (23f <= time && time <= 30f)
         {
-            itemGenerator.GetComponent<ItemGenerator>().SetParameter(1.0f, -0.03f, 2);
+            itemGenerator.GetComponent<ItemGenerator>().SetParameter(1.0f, -3.0f, 2);
         }
 
         timerText.text = time.ToString();

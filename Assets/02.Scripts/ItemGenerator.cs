@@ -10,7 +10,7 @@ public class ItemGenerator : MonoBehaviour
     float span = 1.0f;
     float delta = 0;
     int ratio = 2;  // ÆøÅºÀÌ ³ª¿Ã È®·ü
-    float speed = -0.03f;   // ¶³¾îÁö´Â ¼Óµµ
+    float speed = -3.0f;   // ¶³¾îÁö´Â ¼Óµµ
 
     public void SetParameter(float span, float speed, int ratio)
     {
